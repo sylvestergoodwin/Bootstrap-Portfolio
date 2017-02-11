@@ -1,0 +1,175 @@
+
+body
+	{
+	width: 960px;
+	padding-top: 1.0em;
+	margin: 0 auto;
+	font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.4em;
+	background-color: lightgrey;
+	}  
+h1, h2, h3, h4, h5, h6
+	{
+	}
+.after-box 
+   {
+	margin-top:10px;	
+	clear: both;
+	}
+.floatright
+	{
+	display: inline;	
+	float: right;
+	}
+.floatleft
+	{
+	float: left;
+	padding-top: 86px;
+	padding-left: 6px;
+	padding-bottom: 6px; 
+	padding-right: 6px; 
+  border: 1px solid darkgrey;
+	margin:6px;	
+	width: 30%;
+	}	
+
+.textlable 
+	{
+	font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;		
+	}	
+.formtext
+	{
+	font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;	
+	font-size: 1.0em;
+	}  
+	
+	
+.basictext
+	{
+	font-family: 'Arial','Helvetica Neue', Helvetica, sans-serif;	
+	font-size: 1.0em;
+	}  
+	
+	
+.sectionname
+	{
+	font-family: 'Georgia',Times, Times New Roman, serif;
+	font-size: 2em;
+	color: #4aaaa5;
+	}  
+.whoami
+	{
+	float: left; 
+	position: relative;	
+	color: #ffffff;
+	background-color: #4aaaa5;
+	display: inline-block;
+	border: 3px solid #4aaaa5;
+	height: 1.55em;	
+	right: 20;
+	font-size: 1.85em;
+	padding-top: 0.95em;
+	}  
+.menu
+	{	
+	color: #ffffff;
+	background-color:#ffffff;;
+	display: inline-block;
+	float: right;	
+	position: top;	
+	padding-top: 1.65em;
+	padding-right: 1.5em;
+	}  
+
+.boxborder
+  {
+  border: 2px solid darkgrey;
+	}
+.boxmargin
+  {
+  padding-right: 10px;
+  }
+.boxshadow
+   {
+  box-shadow: 10px 10px 5px #888888;
+	padding: 1.5em; 
+	
+  }  
+.size100
+  {
+	width:100%;
+  }
+.size75
+  {
+  width: 75%;   
+  }   
+.size45
+  {
+  width: 45%;   
+  }   
+.size40
+  {
+  width: 40%;   
+  }   
+.size35
+  {
+  width: 35%;   
+  }   
+.size30
+  {
+  width: 30%;
+  }  
+img
+	{
+	vertical-align: middle;
+  border: 2px solid darkgrey;
+	}
+.footertext
+  {
+	font-size: 1.75em;
+	}
+.formatfooter
+	{
+	width: 960px;
+	background-color: #bbbbbb;
+  border-top: 4px solid #4aaaa5;    
+	position: fixed;
+  bottom: -20px;
+	}
+	
+	
+	
+	
+	
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) 
+{
+body
+	{
+	background-color: lightpink;
+	}  	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) 
+{
+body
+	{
+	background-color: lightgreen;
+	width: 100%;
+	}  	 
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) 
+{ 
+body
+	{
+	background-color: lightblue;
+	width: 100%;
+	}  	
+}
+	
+	
+	
